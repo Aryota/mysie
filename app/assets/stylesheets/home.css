@@ -1,0 +1,60 @@
+/* home */
+.main-container {
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-image: url("/images/proxyclick-visitor.jpg");
+  background-size:100%;
+  color:#FFF;
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  min-height: 100vh;
+  position: relative;
+  line-height: 50px;
+  display: flex;
+}
+
+.main-container-top h1{
+  margin-top:40px;
+  /* padding:20px; */
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+
+}
+
+.main-container-top a {
+  opacity: 0.7;
+  margin:0 125px;
+  font-size:19px;
+  float:left;
+  text-align: center;
+  text-decoration-color: #black;
+  width:120px;
+  height: 20px;
+  padding:28px;
+  padding-bottom: 7px;
+  color:#FFF;
+  /* 文字の高さ */
+  line-height:0px;
+  margin-top: 100px;
+
+}
+.request {
+  background-color: #000;
+      color: white;
+}
+.find {
+  background-color: #000;
+  color: white;
+
+
+}
+.bbs {
+  background-color: #000;
+  color: white;
+
+
+}
+
+.btn {
+  opacity: 0.8;
+
+}

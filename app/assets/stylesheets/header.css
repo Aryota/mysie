@@ -1,0 +1,75 @@
+
+/* header */
+body {
+  margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color:black;
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position:fixed;
+  top:0;
+  z-index:10;
+
+}
+
+.header-left {
+  float: left;
+}
+.header-left a{
+  color:white;
+  line-height: 65px;
+  font-size: 30px;
+}
+
+.header-left1 a{
+  line-height: 75px;
+  font-size: 15px;
+  color:#FFF;
+  padding:0 10px;
+}
+
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.left1{
+  font-size: 15px;
+}
+
+.header-right1 a{
+  float: right;
+  color:white;
+  line-height: 65px;
+  padding: 0 25px;
+  font-size: 20px;
+
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  font-size: 25px;
+}
+a:hover {
+  color:#6666FF	;
+}
+
+.bosyu h2{
+  padding:100px 0;
+  font-size:30px;
+}
