@@ -5,13 +5,13 @@
     </div>
   </div>
   <div class="header-right">
-    <a href="#">ユーザー登録</a>
+    <%= link_to("ユーザー登録", signup_path, class: "btn btn-lg btn-primary") %>
   </div>
   <div class="header-right1">
-    <a href="#">ログイン</a>
+    <%= link_to("ログイン", "#") %>
   </div>
   <div class="header-left1">
-    <%= link_to("Darts Markとは", "/about") %>
-    <%= link_to("使い方", "/about") %>
+    <%= link_to("Darts Markとは", about_path) %>
+    <%= link_to("使い方", info_path) %>
   </div>
 </header>

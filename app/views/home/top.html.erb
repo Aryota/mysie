@@ -1,17 +1,14 @@
-
-<%= content_for :main do %>
+<% provide(:title, 'Top') %>
 <div class="main-container">
   <div class="main-container-top">
 
     <h1>Make A New Friends</h1>
     <div class="main-btn">
-      <%= link_to("募集する", "/about",{class: "request"}) %>
-      <%= link_to("みつける", "/about",{class: "find"}) %>
-      <%= link_to("掲示板", "/about", {class: "bbs"})%>
+      <%= link_to("募集する", "#",{class: "request"}) %>
+      <%= link_to("みつける", "#",{class: "find"}) %>
+      <%= link_to("掲示板", "#", {class: "bbs"})%>
 
     </div>
 
   </div>
 </div>
-
-<% end %>
